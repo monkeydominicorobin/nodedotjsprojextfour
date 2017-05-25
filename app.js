@@ -1,5 +1,6 @@
+'use strict';
 var e = require('express');
-var path = require('path');
+//var path = require('path');
 var mungo = require('mongodb');
 var routes = require('./index.js');
 var api = require('./aldubshort.js');

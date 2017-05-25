@@ -1,3 +1,4 @@
+'use strict';
 module.exports = function(a, db) {
 
   a.route('/:url')
