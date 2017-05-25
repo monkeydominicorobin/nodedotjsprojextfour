@@ -1,0 +1,29 @@
+{
+  "name": "nodedotjsprojextfour",
+  "version": "1.0.0",
+  "engines": {
+    "node": "4.7.3",
+    "npm": "2.15.11"
+  },
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monkeydominicorobin/nodedotjsprojextfour.git"
+  },
+  "author": "Rommel Dominguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monkeydominicorobin/nodedotjsprojextfour/issues"
+  },
+  "homepage": "https://github.com/monkeydominicorobin/nodedotjsprojextfour#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^1.2.0",
+    "express": "^4.15.3",
+    "hasha": "^3.0.0",
+    "mongodb": "^2.2.26"
+  }
+}
