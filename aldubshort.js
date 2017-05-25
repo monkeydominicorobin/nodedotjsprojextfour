@@ -1,4 +1,5 @@
 'use strict';
+var h = require('hasha');
 module.exports = function(a, db) {
 
   a.route('/:url')
