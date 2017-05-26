@@ -18,7 +18,7 @@ mungo.MongoClient.connect(process.env.MONGOLAB_URI || 'mongodb://localhost:27017
   }
 
   a.set('view options',{layout: false});
-  a.use(e.static(__dirname + '/public'));
+  a.use(e.static(__dirname + '/'));
   a.get('/', function(pakiusap,tugon){
       tugon.render('index.html');
   });
