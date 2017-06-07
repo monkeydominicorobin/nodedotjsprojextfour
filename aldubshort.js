@@ -24,7 +24,7 @@ module.exports = function(a, db) {
     if (checkerU(url)) {
       urlObj = {
         "original_url": url,
-        "short_url": "https://nodedotjsprojextfour-ynwodsun000.c9users.io/" + maGicHash()
+        "short_url": process.env.APP_URL + maGicHash()
       };
       res.send(urlObj);
       save(urlObj, db);
